@@ -1,0 +1,106 @@
+body{
+	font-family: arial, sans-serif;
+	margin: 10;
+	padding: 10;
+	color:blue ;
+
+header {
+	background-color: green;
+	color: white;
+	padding:0px ;
+}
+h1{
+	margin: 20px;
+	padding right: 20px;
+    margin-left: 25%;
+	padding-right: 25%;
+}
+nav ul{
+	margin-left: 0%;
+	padding-right: 0%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+nav a {
+	color: white ;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover {
+	text-decoration: underline ;
+}
+section{
+	
+	background-color: white;
+	margin-top: 25px;
+	border-radius: 10px;
+	box-shadow: 15PX 15px 15px;
+}
+.gallery .car-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: space-around;
+}
+.car-item {
+	box-shadow: 35 1px 35px;
+	text-align: center;
+	width: 100%;
+}
+.car-item  img {
+	width: 50%;
+	border-radius: 10px;
+}
+.details img .vehicule-img{
+	max-width: 100px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+input, textarea {
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid;
+	width: 70A%;
+}
+button {
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: fit-content;
+}
+button:hover {
+	background-color: blue;
+}
+footer {background-color:blue;
+	text-align: center;
+	padding: 10px;
+	border-radius:10px;
+	color: white;
+	margin-top: 10px;
+}
+
+ h2{
+	text-align: center;
+	margin-top: 30px;
+
+car-item img{
+	width:30%;
+	padding: 15px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+
+}
+
+section li{
+	text-align: center;
+	list-style: none;
+}

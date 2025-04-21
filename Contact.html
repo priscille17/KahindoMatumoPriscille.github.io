@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AutoVente</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script>
+		fuction validerFormulaire() {
+			const nom = document.getElementByid('nom').value;
+			const email = document.getElementByid('email').value;
+			const message = document.getElementByid('message').value;
+			if (!nom // !email)  // !message) {
+				alert("veuillez remplir tous les champs.");
+				return false;
+			}
+			alert("message envoye avec succes! nous vous repondrons bientot.");
+			return true;
+
+		}
+	</script>
+</head>
+<body>
+	<header>
+	<h1>Contactez-nous au :</h1>
+<nav>
+		<ul>
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="Catalogue">Catalogue<a></li>
+					<li><a href="détails">détails<a></li>
+					<li><a href="about.html">A propos</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</nav>
+		</ul>
+		</nav>
+			
+<section class="contact">
+	<h2 style="color:green;">Envoyez-nous un message</h2>
+	<form onsubmit="return validerFormulaire();">
+		<label>Nom d'utilisateur</label>
+		<input class="input" type="text" name="">
+		<label>E-mail</label>
+		<input class="input" type="email" id="email" name="">
+		<label for="message">message:</label>
+		<textarea id="message" name="message"></textarea> 
+        
+         <button type="submit">Envoyer</button>
+		</form>
+		<li>Tél: 0813465785</li>
+			<li>Whatsapp :098768645</li>
+			<li>e-mail : kahindomatumo@gmail.com</li>
+</header>
+	</section>
+
+</body>
+</html>
